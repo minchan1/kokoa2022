@@ -1,0 +1,49 @@
+body {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.ch {
+  position: relative;
+  border: 6px solid white;
+  width: 35%;
+  height: 300px;
+  margin: 10px;
+}
+div:nth-child(2) {
+  background-color: tomato;
+}
+div:nth-child(3) {
+  background-color: teal;
+}
+div:nth-child(4) {
+  background-color: burlywood;
+}
+div:nth-child(5) {
+  background-color: thistle;
+}
+.inner {
+  position: absolute;
+  background-color: white;
+  padding: 5px;
+  width: 100%;
+  height: 75px;
+  top: 20px;
+}
+div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#main {
+  width: 500px;
+}

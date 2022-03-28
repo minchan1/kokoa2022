@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.div__outer {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 300px;
+  border: 5px solid aquamarine;
+  padding: 10px;
+}
+.Title {
+  font-weight: bold;
+}
+.sub {
+  font-size: 7px;
+}
+header {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 5%;
+}
+.btn--exit {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 3px;
+  background-color: white;
+  border: solid white;
+}
+.header__column {
+  width: 33%;
+}
+.header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.div__now-playing {
+  line-height: 1.1;
+  font-weight: 900;
+  margin: 5%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+.div__now-playing--big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20%;
+  width: 100px;
+  height: 80px;
+  background-color: orange;
+}
+.span_now-playing {
+  margin: 5%;
+}
+.span__now-playing--big {
+  font-size: 30px;
+}
+.div__buttons {
+  margin: 5% 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  height: 40px;
+  background-color: white;
+  border: solid black;
+  border-width: 1px 1px 4px 1px;
+}
+.buttons--play {
+  display: flex;
+  justify-content: space-evenly;
+  width: 120px;
+  border-radius: 10px;
+}
+.buttons--like {
+  font-size: 17px;
+  width: 40px;
+  border-radius: 50%;
+}
+.buttons--add {
+  font-size: 17px;
+  width: 40px;
+  border-radius: 50%;
+}
+.div__songs-list {
+  display: flex;
+  flex-direction: column;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+}
+li {
+  margin: 5%;
+  display: flex;
+  justify-content: flex-start;
+}
+.span {
+  width: 50%;
+}
+.red {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 20%;
+  background-color: tomato;
+}
+.pink {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 20%;
+  background-color: pink;
+}
+.blue {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 20%;
+  background-color: blue;
+}
+.green {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 20%;
+  background-color: darkcyan;
+}
+img {
+  width: 12px;
+  height: 12px;
+}
+p {
+  width: 100%;
+  margin: 7%;
+}
+.span__songs-list {
+  margin-left: 5%;
+}
